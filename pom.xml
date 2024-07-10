@@ -3,7 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mdzy</groupId>
     <artifactId>CSMS</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+    <modules>
+        <module>csms-dependency</module>
+        <module>csms-infrastructure-utility</module>
+        <module>csms-system</module>
+        <module>outsouring-system</module>
+        <module>outsouring-system/outsouring-system-beijing</module>
+        <module>outsouring-system/outsouring-system-shanghai</module>
+        <module>outsouring-system/outsouring-system-hangzhou</module>
+    </modules>
     <version>1.0-SNAPSHOT</version>
     <name>CSMS</name>
     <url>http://maven.apache.org</url>
